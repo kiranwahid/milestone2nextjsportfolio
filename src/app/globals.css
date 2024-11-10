@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body{
+  background:rgba(0,0,0,0.8);
+}
+
+::selection{
+  background-color: yellow;
+
+}
+
+#navbar{
+  z-index: 1000;
+  background: #333;
+}
+
+#box{
+  background: #333;
+
+}
+
+.input{
+  background: none;
+}
+
+.icons{
+  border-radius: 50%;
+  color: #fff;
+}
+
+.box1:hover{
+color: #333;
+
+}
+
+.box1 h1:hover{
+  color: #333;
+}
+
+.box1 p:hover{
+  color: #333;
+}
